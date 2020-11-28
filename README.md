@@ -16,3 +16,18 @@ A portfolio that gives maximum return for a given risk, or minimum risk for give
 (a) From the portfolios that have the same return, the investor will prefer the portfolio with lower risk.
 
 (b) From the portfolios that have the same risk level, an investor will prefer the portfolio with higher rate of return.
+
+## About the project:
+### I have taken two cases:
+
+(I) Optimize portfolio selection with two stocks.
+(II) Optimize portfolio selection with more than two stocks.
+
+In both cases the approach is same, the only difference is the number of stocks to select in the portfolio.
+
+### Case I:
+1. We consider any 2 stocks. Now we need to find out weights of these two stocks to keep in our portfolio. 
+2. Evaluate the portfolio expected return, variance and volatility(standard deviation)
+3. We run a for loop to populate an array of size two (i.e. the number of stocks to select) with random weights summing to 1. Further in the loop evaluate portfolio expected return and volatility(standard deviation) to append in two lists for portfolio returns and portfolio volatility. 
+4. Plot the data on graph with portfolio returns and portfolio volatility as axes to get the Markowitz Efficient Frontier.
+5. From the Efficient Frontier we can reach the optimal weights selection to optimize portfolio.
