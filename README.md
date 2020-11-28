@@ -21,6 +21,7 @@ A portfolio that gives maximum return for a given risk, or minimum risk for give
 ### I have taken two cases:
 
 (I) Optimize portfolio selection with two stocks.
+
 (II) Optimize portfolio selection with more than two stocks.
 
 In both cases the approach is same, the only difference is the number of stocks to select in the portfolio.
