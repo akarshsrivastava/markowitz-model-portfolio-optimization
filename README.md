@@ -1,1 +1,1 @@
-# markowitz-model-portfolio-optimization
+# Markowitz model for portfolio optimization
